@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Drill 2</title>
+<style>
+    body {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-image: url(https://helios-i.mashable.com/imagery/articles/00XSlELQkZQrDNcKly9UdwO/hero-image.fill.size_1248x702.v1662828516.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 115%;
+        background-attachment: fixed;
+
+    }
+
+    .boxbox {
+        background-color: rgba(235, 227, 227, 0.8); 
+        padding: 20px 40px;            
+        border-radius: 20px; 
+        border-color: #6e3f0c; 
+        border-style: dotted;
+        color: #000000;  
+        display: inline-block; 
+        box-shadow: -1px 1px 17px 1px #67440b;
+        align-items: center;
+        margin-top: 165px;
+
+    }
+</style>
+</head>
+<body>
+    <div class="boxbox">
+    <h1>heat index checker</h1>
+    <p onclick="instructions()">note</p>
+        <div id="show"></div>
+    <form>
+        <h3>degree in °C</h3>
+        <input type="number" id="temperature" placeholder="input degree value"><br>
+        <h3>humidity in %</h3>
+        <input type="number" id="humidity" placeholder="input percentage value"><br>
+        <input type="button" onclick="heat_index()" value="check"><br>
+    </form></div>
+    <br>
+    <script src="main.js"></script>
+</body>
+</html>
